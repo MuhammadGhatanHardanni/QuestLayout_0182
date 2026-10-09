@@ -48,7 +48,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 .fillMaxWidth(1f)
                 .padding(12.dp),
             colors = CardDefaults.cardColors(
-                contentColor = Color.DarkGray
+                containerColor = Color.DarkGray
             )
         ) {
             Row() { // row nya dalam card
@@ -80,7 +80,7 @@ fun ActivitasPertama(modifier: Modifier) {
         }
         Box(
             modifier = Modifier
-                .fillMaxWidth()
+                .fillMaxSize()
         ) {
             Text(
                 stringResource(R.string.copy),
