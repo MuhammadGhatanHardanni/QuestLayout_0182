@@ -82,6 +82,12 @@ fun ActivitasPertama(modifier: Modifier) {
             modifier = Modifier
                 .fillMaxWidth()
         ) {
+            Text(
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp)
+            )
         }
     }
 }
