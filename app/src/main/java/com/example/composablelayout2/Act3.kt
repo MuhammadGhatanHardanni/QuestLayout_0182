@@ -2,6 +2,7 @@ package com.example.composablelayout2
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.gestures.scrollable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -70,7 +71,7 @@ fun ActivitasPertama(modifier: Modifier) {
                         stringResource(R.string.alamat),
                         fontSize = 30.sp,
                         fontFamily = FontFamily.Cursive,
-                        color = Color.White,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(top = 15.dp)
                     )
                 }
